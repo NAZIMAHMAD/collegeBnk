@@ -1,0 +1,1738 @@
+<!-- Boiler plate of html -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Nazim Developer">
+    <title>collegeBank</title>
+
+    <link href="Css/style.css" rel="StyleSheet" />
+
+    <!-- responsive link-->
+
+    <link href="Css/responsive.css" rel="StyleSheet" />
+
+
+    <!-- font awesome cdn -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap cdn -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+
+    <!--jquery cdn -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <!-- favicon link -->
+
+    <link rel="icon" type="image/x-icon" href="Assest/CB3.png">
+
+
+    <!-- Aos cdn -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+
+    <main class="main">
+
+
+
+
+
+        <!--header page-->
+
+        <header class="header">
+
+
+
+            <div class="header_child1">
+
+                <img src="Assest/CB3.png" alt="logo" />
+                <h1>collegeBank</h1>
+
+                <i class="fa-sharp fa-solid fa-bars" style="color: #115ee4;" onclick="navbar()"></i>
+
+            </div>
+
+
+
+
+            <!--header child page -->
+
+
+            <div class="header_child2">
+                <p>select goal & and city</p>
+
+                <select class="select">
+
+                    <option value="volvo">Select goal</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+            </div>
+
+
+            <input type="text" name="target" placeholder="search college">
+
+            <a  href="child_html/Reward.html" target="_blank" class="header_child3">
+
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                <span>
+
+                    <p>write review</p>
+                    <button>get upto 500 INR</button>
+                </span>
+
+
+
+            </a>
+
+
+            <div class="header_child4">
+
+                <i class="fa-solid fa-table-cells" class="explore_icon" id="explore_btn"></i>
+                <button>explore</button>
+
+            </div>
+
+            <div class="header_child5">
+
+                <i class="fa-solid fa-bars" id="toggle_welcomepage"></i>
+                <i class="fa-solid fa-earth-europe ind_logo"></i>
+            </div>
+
+
+
+
+        </header>
+
+
+
+        <!--explore toggle bar-->
+
+
+        <div class="explore_toggle" id="explore_toggle">
+
+
+            <h1>explore more</h1>
+            <div class="explore_toggle_child">
+
+
+
+                <ul class="explore_toggle_ul_list">
+
+                    <li>top college and university</li>
+                    <li>top course</li>
+                    <li>read college reviews</li>
+                    <li>admission alert 2023</li>
+                    <li>institute</li>
+                    <li>college predictor</li>
+                    <li>practice questions</li>
+                    <li>scholarship</li>
+                </ul>
+
+                <ul class="explore_toggle_ul_list">
+
+                    <li>
+                        <div>study abroad <span>get into 50% discount on visa fee</span></div>
+                    </li>
+                    <li>abroad exams</li>
+                    <li>exams</li>
+                    <li>news</li>
+                    <li>education loan</li>
+                    <li>ask questions</li>
+                    <li>test series</li>
+                    <li>querse finder</li>
+
+                </ul>
+
+                <div class="img_content">
+
+                    <h1>"write a review & earn upto 500 INR"</h1>
+                    <p>approval in 15min</p>
+
+                    <div class="img_content_star">
+                        <i class="fa-regular fa-star" style="color:orange"></i>
+                        <i class="fa-regular fa-star" style="color:orange"></i>
+                        <i class="fa-regular fa-star" style="color:orange"></i>
+                        <i class="fa-regular fa-star" style="color:orange"></i>
+                        <i class="fa-regular fa-star"></i>
+
+                    </div>
+                    <img src="https://img.freepik.com/free-vector/students-walking-relaxing-campus-park_1262-20690.jpg"
+                        alt="img" srcset="">
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!--search toggle bar-->
+
+        <div id="search_toggle_bar1" >
+          
+            <div class="search_toggle_bar" >
+
+                <div class="search_toggle_bar_child1">
+    
+                    <h4>how collegeBank help to get a admission</h4>
+    
+                    <div class="search_toggle_bar_child1_cardBox">
+    
+                        <div class="card">
+                            <i class="fa-solid fa-laptop-file"></i>
+                            <p>browcher details</p>
+    
+                        </div>
+    
+                        <div class="card">
+                            <i class="fa-solid fa-coins"></i>
+                            <p>check details fee</p>
+    
+    
+                        </div>
+    
+                        <div class="card">
+                            <i class="fa-solid fa-receipt"></i>
+                            <p>shortlist & apply</p>
+    
+    
+                        </div>
+    
+    
+                        <div class="card">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                            <p>24/7 counselling</p>
+    
+    
+                        </div>
+    
+    
+                        <div class="card">
+    
+                            <i class="fa-solid fa-receipt"></i>
+    
+                            <p>scholarship</p>
+    
+                        </div>
+    
+    
+                        <div class="card">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+    
+                            <p>application deadline</p>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+                <div class="search_toggle_bar_child2">
+    
+                    <div class="search_toggle_bar_child2_subchild1">
+    
+                        <div class="search_toggle_bar_child2_subchild1_child">
+    
+                            <i class="fa-solid fa-book-open-reader"></i>
+    
+                            <div class="search_toggle_bar_child2_subchild1_child_content">
+    
+                                <h1>resister now to apply</h1>
+                                <h3>top college in india</h3>
+    
+                            </div>
+    
+                        </div>
+    
+                        <i class="fa-solid fa-xmark" id="x_mark"></i>
+    
+                    </div>
+    
+                    <div class="search_toggle_bar_child2_subchild2">
+    
+    
+                        <div class="search_toggle_bar_child2_subchild2_inputBox">
+    
+                            <div class="input_box">
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" name="user name" placeholder="full name*" />
+    
+                            </div>
+    
+                            <div class="input_box">
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="number" name="mobile number" placeholder="Enter the mobile no*" />
+    
+                            </div>
+    
+                            <div class="input_box">
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="email" name="Email addresss" placeholder="Email Address*" />
+    
+                            </div>
+    
+                            <div class="input_box">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <input type="text" name="location" placeholder="city you live in*" />
+    
+                            </div>
+    
+                            <div class="input_box select_box">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <select>
+                                    <option>bca admission </option>
+                                    <option>mba</option>
+    
+                                </select>
+    
+                            </div>
+    
+                            <div class="input_box btn">
+                                <input type="submit" name="submit" placeholder="submit" />
+    
+                            </div>
+    
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+    
+            </div>
+
+        </div>
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--header child page-->
+
+
+        <section class="header_child">
+
+            <ul>
+                <i class="fa-solid fa-icons"></i>
+                <li>all course</li>
+                <li><a href="child_html/Mba.html" target="_top">mba</a></li>
+                <li><a href="child_html/Btech.html" target="_top">b.tech</a></li>
+                <li><a href="child_html/Mca.html" target="_top">mca</a></li>
+                <li><a href="child_html/Mtech.html" target="_top">m.tech</a></li>
+                <li><a href="child_html/Mbbs.html" target="_top">mbbs</a> </li>
+                <li><a href="child_html/Bcom.html" target="_top">b.com</a></li>
+                <li><a href="child_html/Ba.html" target="_top">ba</a></li>
+                <li><a href="child_html/Bca.html" target="_top">bca</a></li>
+                <li><a href="child_html/Bba.html" target="_top">bba</a></li>
+
+
+            </ul>
+
+            <div class="child2">
+                <i class="fa-solid fa-rocket"></i>
+                <p>course finder</p>
+            </div>
+
+
+
+
+            <!-- welcome to college dunya page -->
+
+            <div class="welcome_page" id="welcome_page">
+
+                <div class="welcome_page_child1">
+
+
+                    <i class="fa-solid fa-earth-europe"></i>
+
+
+                    <div class="welcome_page_child1_subchild2">
+
+                        <h3>hello, welcome to collegeBank</h3>
+                        <h5>search colleges, exam , courses,& more</h5>
+                    </div>
+
+
+                </div>
+
+                <div class="welcome_page_child1_subchild3">
+
+                    <input type="text" name="college search" placeholder="select goal" />
+
+                    <button type="submit">
+                        login/resister
+                    </button>
+
+                </div>
+
+
+
+                <div class="welcome_page_child2">
+
+                    <div class="welcome_page_child2_subchild1">
+
+                        <h5>"write a review & earn upto INR 500</h5>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+
+
+
+                    </div>
+
+                    <div class="welcome_page_child2_subchild2">
+
+                        <img src="https://clipground.com/images/pci-dss-clipart-7.jpg" alt="welcome page logo" />
+
+
+                    </div>
+
+                </div>
+
+
+
+
+                <div class="welcome_page_child4">
+
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+        <!--responsive navbar -->
+
+        <div class="responsive_navbar">
+
+
+            <!--navbar header-->
+
+            <div class="navbar_header">
+
+                <span>
+
+
+                    <i class="fa-solid fa-arrow-left" style="color: #fcfcfd;" onclick="cut()"></i>
+                    <h1>menu</h1>
+
+
+                </span>
+
+
+                <div class="navbar_child3">
+
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+                    <span>
+
+                        <p>write review</p>
+                        <button>get upto 500 INR</button>
+                    </span>
+
+
+
+                </div>
+
+            </div>
+
+
+            <!--navbar select goal-->
+
+
+            <div class="navbar_child2">
+                <h1>select goal & and city</h1>
+
+                <select class="select">
+
+                    <option value="volvo">Select goal</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+
+            </div>
+
+
+            <!--browse catorgories-->
+
+            <div class="browse_box">
+
+                <h1>browse categories</h1>
+
+                <div class="browse_child">
+
+                    <input type="text" name="target" placeholder="search college">
+
+                </div>
+
+                <div class="accordion" id="accordionPanelsStayOpenExample container">
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    b.tech
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    mba
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    m.tech
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    b.com
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    b.arch
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    m.com
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <ul class="ul_list">
+                                        <li>top cities & states</li>
+                                        <li>browse college by type category</li>
+                                        <li>b.tech exam by tech streams</li>
+                                        <li>college predictor</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <button>all courses ></button>
+
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Hero section -->
+
+
+        <section class="hero_section">
+
+
+            <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">find over 11000
+                college in india</h1>
+
+            <div class="hero_child" data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">
+                <input type="text" name="search" target="_blank" placeholder="search for best colleage">
+                <button type="submit" name="search" class="hero_btn">search</button>
+
+            </div>
+
+
+            <button type="sumbit" name="counselling" class="hero_btn counselling" data-aos="fade-up"
+                data-aos-duration="3000" data-aos-anchor-placement="top-bottom">need counselling </button>
+
+
+        </section>
+
+
+
+
+        <!--study goal section -->
+
+
+        <div class="study_section">
+
+
+            <h1 data-aos="fade-right" data-aos-duration="3000" data-aos-anchor-placement="top-bottom"> select your study
+                goal</h1>
+
+            <section class="study_goal" data-aos="fade-up" data-aos-duration="3000"
+                data-aos-anchor-placement="top-bottom">
+
+
+                <div class="card">
+
+                    <div class="card_child1">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <div>
+
+                            <h3>engineering</h3>
+                            <p>6661 colleage</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card_child2">
+
+                        <p>btech</p>
+                        <p>mtech</p>
+                        <p>diploma in engineering</p>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card_child1">
+
+                        <i class="fa-regular fa-user"></i>
+
+                        <div>
+
+                            <h3>engineering</h3>
+                            <p>6661 colleage</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card_child2">
+
+                        <p>btech</p>
+                        <p>mtech</p>
+                        <p>diploma in engineering</p>
+
+                    </div>
+
+
+
+                </div>
+
+                <div class="card">
+
+                    <div class="card_child1">
+
+                        <i class="fa-solid fa-handshake"></i>
+                        <div>
+
+                            <h3>management</h3>
+                            <p>6661 colleage</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card_child2">
+
+                        <p>btech</p>
+                        <p>mtech</p>
+                        <p>diploma in engineering</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card_child1">
+
+                        <i class="fa-solid fa-dumpster-fire"></i>
+                        <div>
+
+                            <h3>Arts</h3>
+                            <p>6661 colleage</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card_child2">
+
+                        <p>btech</p>
+                        <p>mtech</p>
+                        <p>diploma in engineering</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+                <div class="card">
+
+                    <div class="card_child1">
+
+                        <i class="fa-solid fa-wheelchair-move"></i>
+                        <div>
+
+                            <h3>commerce</h3>
+                            <p>6661 colleage</p>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="card_child2">
+
+                        <p>btech</p>
+                        <p>mtech</p>
+                        <p>diploma in engineering</p>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+
+
+            </section>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- alert section sesction -->
+
+
+        <section class="admission_session">
+
+
+
+            <div class="admission_content" data-aos="fade-up" data-aos-duration="3000"
+                data-aos-anchor-placement="top-bottom">
+
+                <span>
+
+                    <h1>Subscribe For Regular Alerts</h1>
+                    <button type="submit" class="admission_btn" target="_blank"> Subscribe now </button>
+
+                </span>
+
+
+
+
+
+
+                <img src="https://img.freepik.com/premium-vector/college-search-tools-online-isolated-cartoon-vector-illustrations_107173-21726.jpg?w=2000"
+                    alt="" style="background-color:white; border-radius:100%; width:15rem;height:15rem;" />
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+        <!--top collection colleage -->
+
+        <section class="col_collection">
+
+
+
+            <h1 data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom">best colleage
+                colleaction</h1>
+
+
+            <div class="colleage_content" data-aos="fade-up" data-aos-duration="3000"
+                data-aos-anchor-placement="top-bottom">
+
+
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+
+
+
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29sbGVnZXxlbnwwfHwwfHx8MA%3D%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+
+
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+                <div class="col_card">
+
+                    <img src="https://images.unsplash.com/photo-1592930954854-7d00c87d0cf4?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbGxlZ2UlMjBjYW1wdXN8ZW58MHx8MHx8fDA%3D"
+                        alt="colleage img" />
+
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+
+        <!--explore programme section  -->
+
+        <section class="explore_section">
+
+            <h1 data-aos="fade-up" data-aos-duration="3000">explore programs </h1>
+
+            <div class="explore_box" data-aos="fade-up" data-aos-duration="3000">
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>ranking </h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-ranking-star"></i>
+
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>courses finder</h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-ranking-star"></i>
+
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>colleage predictor </h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-ranking-star"></i>
+
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>find college </h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-ranking-star"></i>
+
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>compare colleges </h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-magnifying-glass-arrow-right"></i>
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="explore_card">
+
+                    <div class="explore_child1">
+
+
+                        <span>
+
+                            <h3>exams </h3>
+                            <p>colleage rand with list data</p>
+
+                        </span>
+
+
+                        <i class="fa-solid fa-ranking-star"></i>
+
+
+
+                    </div>
+
+                    <div class="explore_child2">
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+
+                        <button type="submit" name="button" target="_blank">
+                            indiatody
+                        </button>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- admission sesction-->
+
+
+        <section class="admission_session">
+
+
+
+            <div class="admission_content" data-aos="fade-up" data-aos-duration="3000">
+
+                <span>
+
+                    <h1>know your chance for admission</h1>
+                    <button type="submit" class="admission_btn" target="_blank"> start now </button>
+
+                </span>
+
+
+
+
+
+
+                <img src="https://www.btechadmission.co.in/wp-content/uploads/2019/07/education-logo-template-png_32234.png"
+                    alt="" class="admission_img" />
+
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+        <!--top study place section
+
+<section class="city_section">
+
+<h1>top study places</h1>
+
+
+<div class="city_content">
+
+    <div class="city_card">
+
+        <i class="fa-brands fa-fort-awesome"></i>
+<p>kolkata bangol</p>
+
+
+    </div>
+
+    <div class="city_card">
+
+        <i class="fa-brands fa-fort-awesome"></i>
+<p>Hyderabad telangana</p>
+
+
+    </div>
+
+
+</div>
+
+
+
+</section>
+
+
+-->
+        <!--course finder section  -->
+
+        <section class="courser_finder" data-aos="fade-up" data-aos-duration="3000">
+
+            <img src="https://img.freepik.com/premium-vector/college-search-tools-online-isolated-cartoon-vector-illustrations_107173-21726.jpg?w=2000"
+                alt="finder_logo">
+
+
+
+            <!--course finder section  -->
+
+            <span class="finder_child">
+
+                <div>
+                    <h1>search more than 15k courses with course finder</h1>
+
+                </div>
+
+                <button type="submit" name="button" target="_blank">try now >></button>
+
+            </span>
+
+        </section>
+
+
+
+
+        <!--new letter section -->
+
+        <section class="news_section" data-aos="fade-up" data-aos-duration="3000">
+
+
+            <span class="news_child1">
+                <h1>
+                    Subscribe to our newsletter
+                </h1>
+
+                <p>get college notification and exam update and news update</p>
+
+
+            </span>
+
+            <form class="news_child2">
+
+                <input type="email" name="name" placeholder="enter the email id" required />
+                <input type="text" name="name" placeholder="enter the mobile no" required />
+
+                <select required>
+
+                    <option>select</option>
+                    <option>bbm </option>
+                    <option>mba </option>
+                    <option>btech </option>
+                </select>
+                <button type="submit" name="button">submit</button>
+
+
+
+
+
+
+            </form>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--footer section   -->
+
+        <footer class="footer">
+
+            <div class="child">
+
+                <h1>top college</h1>
+
+                <ul>
+                    <li><a href="child_html/Mba.html" target="_top">mba</a></li>
+                    <li><a href="child_html/Btech.html" target="_top">b.tech</a></li>
+                    <li><a href="child_html/Mca.html" target="_top">mca</a></li>
+                    <li><a href="child_html/Mtech.html" target="_top">m.tech</a></li>
+                    <li><a href="child_html/Mbbs.html" target="_top">mbbs</a> </li>
+                    <li><a href="child_html/Bcom.html" target="_top">b.com</a></li>
+                    <li><a href="child_html/Ba.html" target="_top">ba</a></li>
+                    <li><a href="child_html/Bca.html" target="_top">bca</a></li>
+                    <li><a href="child_html/Bba.html" target="_top">bba</a></li>
+
+                </ul>
+            </div>
+
+            <div class="child">
+
+                <h1>top university</h1>
+
+                <ul>
+                    <li><a href="University_page/Eng.html" target="_top">Engineering</a></li>
+                  <li><a href="University_page/Management.html" target="_top">management</a></li>
+                  <li><a href="University_page/Arts.html" target="_top">Arts</a></li>
+                  <li><a href="University_page/Law.html" target="_top">Law</a></li>
+                  <li><a href="University_page/Medicle.html" target="_top">Medicle</a></li>
+                  <li><a href="University_page/Commerce.html" target="_top">Commerce</a></li>
+                  <li><a href="University_page/Science.html" target="_top">science</a></li>
+
+
+                </ul>
+            </div>
+
+
+            <div class="child">
+
+                <h1>top exam</h1>
+
+                <ul>
+
+                    <li><a href="Exam/Cat.html" target="_top">CAT</a></li>
+                    <li><a href="Exam/Gate.html" target="_top">GATE</a></li>
+                    <li><a href="Exam/Mat.html" target="_top">MAT</a></li>
+                    <li><a href="Exam/Jee-main.html" target="_top">JEE-MAIN</a></li>
+                    <li><a href="Exam/Neet.html" target="_top">NEET</a></li>
+                    <li><a href="Exam/Clat.html" target="_top">CLAT</a></li>
+                    <li><a href="Exam/Xat.html" target="_top">XAT</a></li>
+               
+
+                </ul>
+            </div>
+
+            <div class="child">
+
+                <h1>study abroad</h1>
+
+                <ul>
+
+                    <li><a href="StudyAbroad/Canada.html" target="_top">canada</a></li>
+                    <li><a href="StudyAbroad/Us.html" target="_top">us</a></li>
+                    <li><a href="StudyAbroad/Phillipince.html" target="_top">phillipince</a></li>
+                    <li><a href="StudyAbroad/Uk.html" target="_top">uk</a></li>
+                    <li><a href="StudyAbroad/Brazil.html" target="_top">brazil</a> </li>
+                    <li><a href="StudyAbroad/India.html" target="_top">india</a></li>
+                    <li><a href="StudyAbroad/German.html" target="_top">german</a></li>
+                   
+                
+
+                </ul>
+            </div>
+
+
+
+            <div class="child">
+
+                <h1>board exam</h1>
+
+                <ul>
+                    <li>10th</li>
+                    <li>12th</li>
+                    <li>12th result</li>
+                    <li>gradute result</li>
+                    <li>upse result</li>
+                    <li>cbse sylabuss</li>
+                    <li>12 cbse sylabuss</li>
+
+                </ul>
+            </div>
+
+
+        </footer>
+
+
+
+
+
+
+        <!--subfooter section -->
+
+
+        <footer class="subfooter">
+
+
+
+            <span class="subfooter_child1">
+                <img src="Assest/CB3.png" alt="logo" />
+                <h1>collegeBank </h1>
+                <p>© 2023 collegeBank Pvt. Ltd. All Rights Reserved</p>
+
+            </span>
+
+
+            <span class="subfooter_child2">
+
+                <p>download the link</p>
+                <i class="fa-brands fa-google-play"></i>
+                <i class="fa-brands fa-apple"></i>
+
+            </span>
+
+
+        </footer>
+
+
+
+
+    </main>
+
+
+
+
+
+    <!--Bootstrap javascript cdn-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+
+    <script type="text/javascript" src="script.js">
+
+
+
+
+
+
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+        AOS.init();
+    </script>
+
+
+</body>
+
+</html>
